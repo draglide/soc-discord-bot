@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                   // ✅ Modern JS target
+    "module": "CommonJS",                 // ✅ Keeps compatibility with require()
+    "moduleResolution": "Node",           // 🔄 Prefer "Node" for CommonJS
+    "moduleDetection": "force",           // ✅ Ensures modules are properly detected
+    "esModuleInterop": true,              // ✅ Enables default import compatibility
+    "resolveJsonModule": true,            // ✅ Allows importing JSON files
+    "strict": true,                       // ✅ Good practice
+    "skipLibCheck": true,                 // ✅ Faster builds
+    "outDir": "dist",                     // 🗂️ Optional: output directory for compiled files
+    "rootDir": "src"                      // 📁 Optional: input source directory
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,1464 @@
+[
+  {
+    "name": "Acambe",
+    "rarity": "Legendary",
+    "pixelArt": "https://patchwiki.biligame.com/images/llzj/thumb/3/3a/6vojf1gl9gt9abd0oan74tod9si69vi.png/84px-%E5%83%8F%E7%B4%A0%E4%BA%BA%E7%89%A9_%E9%98%BF%E5%9D%8E%E8%B4%9D.png",
+    "class": {
+      "name": "Destroyer"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      },
+      {
+        "name": "Discipline"
+      }
+    ]
+  },
+  {
+    "name": "Agatha",
+    "rarity": "Legendary",
+    "pixelArt": "https://patchwiki.biligame.com/images/llzj/thumb/8/81/hwufkvcqvshcos515d8z7fhmtgkcxz2.png/84px-%E5%83%8F%E7%B4%A0%E4%BA%BA%E7%89%A9_%E9%98%BF%E5%8A%A0%E5%A1%94.png",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "Auguste",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Breaker"
+    },
+    "faction": [
+      {
+        "name": "The Union",
+        "icon": "<:flag_union:1290663140245114936>"
+      },
+      {
+        "name": "Aggression"
+      }
+    ]
+  },
+  {
+    "name": "Alexei",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Defender"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      },
+      {
+        "name": "Aggression"
+      }
+    ]
+  },
+  {
+    "name": "Beryl",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Destroyer"
+    },
+    "faction": [
+      {
+        "name": "Papal States",
+        "icon": "<:Papal:1290663140245114936>"
+      },
+      {
+        "name": "Sword of Convallaria"
+      },
+      {
+        "name": "Aggression"
+      }
+    ]
+  },
+  {
+    "name": "Caris",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Destroyer"
+    },
+    "faction": [
+      {
+        "name": "Papal States",
+        "icon": "<:Papal:1290663140245114936>"
+      },
+      {
+        "name": "Aggression"
+      }
+    ]
+  },
+  {
+    "name": "Kiya",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Destroyer"
+    },
+    "faction": [
+      {
+        "name": "Night Crimson"
+      },
+      {
+        "name": "Vlder"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "Cocoa",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Defender"
+    },
+    "faction": [
+      {
+        "name": "Vlder"
+      },
+      {
+        "name": "Fortitude"
+      }
+    ]
+  },
+  {
+    "name": "Col",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Seeker"
+    },
+    "faction": [
+      {
+        "name": "Papal States",
+        "icon": "<:Papal:1290663140245114936>"
+      },
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "Dantalion",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Destroyer"
+    },
+    "faction": [
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Fortitude"
+      }
+    ]
+  },
+  {
+    "name": "Edda",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      },
+      {
+        "name": "Discipline"
+      }
+    ]
+  },
+  {
+    "name": "Faycal",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Sword of Convallaria"
+      },
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "Garcia",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Seeker"
+    },
+    "faction": [
+      {
+        "name": "Papal States",
+        "icon": "<:Papal:1290663140245114936>"
+      },
+      {
+        "name": "Fortitude"
+      }
+    ]
+  },
+  {
+    "name": "Gloria",
+    "rarity": "Legendary",
+    "pixelArt": "https://patchwiki.biligame.com/images/llzj/thumb/f/f8/i9s3ikfwzaunky8vhjrzfs64h3rlg4m.png/84px-%E5%83%8F%E7%B4%A0%E4%BA%BA%E7%89%A9_%E6%AD%8C%E6%B4%9B%E8%8E%89%E4%BA%9A.png",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "The Union",
+        "icon": "<:flag_union:1290663140245114936>"
+      },
+      {
+        "name": "Fortitude"
+      }
+    ],
+    "mainArt": "https://patchwiki.biligame.com/images/llzj/thumb/e/e3/gr5tz30osaueazzg39j30uownwufhla.png/800px-%E7%AB%8B%E7%BB%98_%E6%AD%8C%E6%B4%9B%E8%8E%89%E4%BA%9A%EF%BC%88%E4%BA%94%E6%98%9F%EF%BC%89.png"
+  },
+  {
+    "name": "Guzman",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Destroyer"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      },
+      {
+        "name": "Aggression"
+      }
+    ]
+  },
+  {
+    "name": "Hasna",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Seeker"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "Homa",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Breaker"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      },
+      {
+        "name": "Aggression"
+      }
+    ]
+  },
+  {
+    "name": "Iggy",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Breaker"
+    },
+    "faction": [
+      {
+        "name": "Vlder"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "Inanna",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Sword of Convallaria"
+      },
+      {
+        "name": "Discipline"
+      }
+    ]
+  },
+  {
+    "name": "Layla",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Defender"
+    },
+    "faction": [
+      {
+        "name": "Night Crimson"
+      },
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Discipline"
+      }
+    ]
+  },
+  {
+    "name": "Leonide",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Breaker"
+    },
+    "faction": [
+      {
+        "name": "Papal States",
+        "icon": "<:Papal:1290663140245114936>"
+      },
+      {
+        "name": "Discipline"
+      }
+    ]
+  },
+  {
+    "name": "LilyWill",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Vlder"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "Magnus",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Defender"
+    },
+    "faction": [
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Fortitude"
+      }
+    ]
+  },
+  {
+    "name": "Maitha",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Defender"
+    },
+    "faction": [
+      {
+        "name": "Sword of Convallaria"
+      },
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      }
+    ]
+  },
+  {
+    "name": "Miguel",
+    "rarity": "Legendary",
+    "pixelArt": "https://patchwiki.biligame.com/images/llzj/thumb/d/d4/nrdhgrsw7ju0dlqpis29r0akqr7gtwq.png/84px-%E5%83%8F%E7%B4%A0%E4%BA%BA%E7%89%A9_%E7%B1%B3%E6%A0%BC%E5%B0%94.png",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Papal States",
+        "icon": "<:Papal:1290663140245114936>"
+      },
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      },
+      {
+        "name": "Discipline"
+      }
+    ],
+    "mainArt": "https://patchwiki.biligame.com/images/llzj/thumb/6/62/mh0hwl31bi42fgn2mvzsw0d73qs02os.png/800px-%E7%AB%8B%E7%BB%98_%E7%B1%B3%E6%A0%BC%E5%B0%94%EF%BC%88%E4%BA%94%E6%98%9F%EF%BC%89.png"
+  },
+  {
+    "name": "Momo",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Destroyer"
+    },
+    "faction": [
+      {
+        "name": "Vlder"
+      },
+      {
+        "name": "Sword of Convallaria"
+      },
+      {
+        "name": "Fortitude"
+      }
+    ]
+  },
+  {
+    "name": "Nergal",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Defender"
+    },
+    "faction": [
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "NonoWill",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Seeker"
+    },
+    "faction": [
+      {
+        "name": "Vlder"
+      },
+      {
+        "name": "Sword of Convallaria"
+      },
+      {
+        "name": "Aggression"
+      }
+    ]
+  },
+  {
+    "name": "Nungal",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Destroyer"
+    },
+    "faction": [
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "Pamina",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Breaker"
+    },
+    "faction": [
+      {
+        "name": "Night Crimson"
+      },
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Fortitude"
+      }
+    ]
+  },
+  {
+    "name": "Rawiyah",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Breaker"
+    },
+    "faction": [
+      {
+        "name": "Sword of Convallaria"
+      },
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "Rawiyah (Alter)",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Seeker"
+    },
+    "faction": [
+      {
+        "name": "Night Crimson"
+      },
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Aggression"
+      }
+    ]
+  },
+  {
+    "name": "Saffiyah",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Seeker"
+    },
+    "faction": [
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Discipline"
+      }
+    ]
+  },
+  {
+    "name": "Saffiyah (Alter)",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Night Crimson"
+      },
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Discipline"
+      }
+    ]
+  },
+  {
+    "name": "Samantha",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Papal States",
+        "icon": "<:Papal:1290663140245114936>"
+      },
+      {
+        "name": "Aggression"
+      }
+    ]
+  },
+  {
+    "name": "Shacklulu",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Seeker"
+    },
+    "faction": [
+      {
+        "name": "Vlder"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "Simona",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "The Union",
+        "icon": "<:flag_union:1290663140245114936>"
+      },
+      {
+        "name": "Discipline"
+      }
+    ]
+  },
+  {
+    "name": "Taair",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Papal States",
+        "icon": "<:Papal:1290663140245114936>"
+      },
+      {
+        "name": "Discipline"
+      }
+    ]
+  },
+  {
+    "name": "Teadon",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Defender"
+    },
+    "faction": [
+      {
+        "name": "The Union",
+        "icon": "<:flag_union:1290663140245114936>"
+      },
+      {
+        "name": "Fortitude"
+      }
+    ]
+  },
+  {
+    "name": "Tristan",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Destroyer"
+    },
+    "faction": [
+      {
+        "name": "Night Crimson"
+      },
+      {
+        "name": "The Union",
+        "icon": "<:flag_union:1290663140245114936>"
+      },
+      {
+        "name": "Aggression"
+      }
+    ]
+  },
+  {
+    "name": "Xavier",
+    "rarity": "Legendary",
+    "pixelArt": "",
+    "class": {
+      "name": "Breaker"
+    },
+    "faction": [
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Fortitude"
+      }
+    ]
+  },
+  {
+    "name": "Abyss",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Destroyer"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      },
+      {
+        "name": "Fortitude"
+      }
+    ]
+  },
+  {
+    "name": "Agile Eye",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Vlder"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "Angel",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Papal States",
+        "icon": "<:Papal:1290663140245114936>"
+      },
+      {
+        "name": "Aggression"
+      }
+    ]
+  },
+  {
+    "name": "Ballista",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "The Union",
+        "icon": "<:flag_union:1290663140245114936>"
+      },
+      {
+        "name": "Aggression"
+      }
+    ]
+  },
+  {
+    "name": "Blade",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Seeker"
+    },
+    "faction": [
+      {
+        "name": "Papal States",
+        "icon": "<:Papal:1290663140245114936>"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "Butterfly",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Vlder"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "Candlelight",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Discipline"
+      }
+    ]
+  },
+  {
+    "name": "Crimson Falcon",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Seeker"
+    },
+    "faction": [
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "Divine Grace",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Papal States",
+        "icon": "<:Papal:1290663140245114936>"
+      },
+      {
+        "name": "Discipline"
+      }
+    ]
+  },
+  {
+    "name": "Enforcer",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Destroyer"
+    },
+    "faction": [
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "Flame Sorceress",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Destroyer"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      },
+      {
+        "name": "Aggression"
+      }
+    ]
+  },
+  {
+    "name": "Flare",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "The Union",
+        "icon": "<:flag_union:1290663140245114936>"
+      },
+      {
+        "name": "Fortitude"
+      }
+    ]
+  },
+  {
+    "name": "Lash",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Destroyer"
+    },
+    "faction": [
+      {
+        "name": "Papal States",
+        "icon": "<:Papal:1290663140245114936>"
+      },
+      {
+        "name": "Aggression"
+      }
+    ]
+  },
+  {
+    "name": "Lightning",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Seeker"
+    },
+    "faction": [
+      {
+        "name": "The Union",
+        "icon": "<:flag_union:1290663140245114936>"
+      },
+      {
+        "name": "Fortitude"
+      }
+    ]
+  },
+  {
+    "name": "Might",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Breaker"
+    },
+    "faction": [
+      {
+        "name": "The Union",
+        "icon": "<:flag_union:1290663140245114936>"
+      },
+      {
+        "name": "Discipline"
+      }
+    ]
+  },
+  {
+    "name": "Night Raven",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Destroyer"
+    },
+    "faction": [
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "Nightingale",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      },
+      {
+        "name": "Fortitude"
+      }
+    ]
+  },
+  {
+    "name": "Stinger",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Seeker"
+    },
+    "faction": [
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "Stormbreaker",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Breaker"
+    },
+    "faction": [
+      {
+        "name": "Sword of Convallaria"
+      },
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      },
+      {
+        "name": "Aggression"
+      }
+    ]
+  },
+  {
+    "name": "Suppression",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Defender"
+    },
+    "faction": [
+      {
+        "name": "Papal States",
+        "icon": "<:Papal:1290663140245114936>"
+      },
+      {
+        "name": "Fortitude"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "Tempest",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Breaker"
+    },
+    "faction": [
+      {
+        "name": "The Union",
+        "icon": "<:flag_union:1290663140245114936>"
+      },
+      {
+        "name": "Fortitude"
+      }
+    ]
+  },
+  {
+    "name": "Dark Light",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Destroyer"
+    },
+    "faction": [
+      {
+        "name": "Night Crimson"
+      },
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Alacrity"
+      }
+    ]
+  },
+  {
+    "name": "Bitter Medicine",
+    "rarity": "Epic",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Night Crimson"
+      },
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      },
+      {
+        "name": "Discipline"
+      }
+    ]
+  },
+  {
+    "name": "Darklight Fire Priest",
+    "rarity": "Rare",
+    "pixelArt": "",
+    "class": {
+      "name": "Destroyer"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      }
+    ]
+  },
+  {
+    "name": "Darklight Ice Priest",
+    "rarity": "Rare",
+    "pixelArt": "",
+    "class": {
+      "name": "Destroyer"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      }
+    ]
+  },
+  {
+    "name": "K.A Archer",
+    "rarity": "Rare",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      }
+    ]
+  },
+  {
+    "name": "K.A Fire Conjurer",
+    "rarity": "Rare",
+    "pixelArt": "",
+    "class": {
+      "name": "Destroyer"
+    },
+    "faction": [
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      }
+    ]
+  },
+  {
+    "name": "K.A Guard",
+    "rarity": "Rare",
+    "pixelArt": "",
+    "class": {
+      "name": "Defender"
+    },
+    "faction": [
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      }
+    ]
+  },
+  {
+    "name": "K.A Light Conjurer",
+    "rarity": "Rare",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      }
+    ]
+  },
+  {
+    "name": "K.A Pikeman",
+    "rarity": "Rare",
+    "pixelArt": "",
+    "class": {
+      "name": "Breaker"
+    },
+    "faction": [
+      {
+        "name": "Iria",
+        "icon": "<:Iria:1292007418506510378>"
+      }
+    ]
+  },
+  {
+    "name": "Knighted Guard",
+    "rarity": "Rare",
+    "pixelArt": "",
+    "class": {
+      "name": "Defender"
+    },
+    "faction": [
+      {
+        "name": "The Union",
+        "icon": "<:flag_union:1290663140245114936>"
+      }
+    ]
+  },
+  {
+    "name": "Knighted Pikeman",
+    "rarity": "Rare",
+    "pixelArt": "",
+    "class": {
+      "name": "Breaker"
+    },
+    "faction": [
+      {
+        "name": "The Union",
+        "icon": "<:flag_union:1290663140245114936>"
+      }
+    ]
+  },
+  {
+    "name": "Papal Guard",
+    "rarity": "Rare",
+    "pixelArt": "",
+    "class": {
+      "name": "Defender"
+    },
+    "faction": [
+      {
+        "name": "Papal States",
+        "icon": "<:Papal:1290663140245114936>"
+      }
+    ]
+  },
+  {
+    "name": "Papal Ice Priest",
+    "rarity": "Rare",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Papal States",
+        "icon": "<:Papal:1290663140245114936>"
+      }
+    ]
+  },
+  {
+    "name": "Papal Pikeman",
+    "rarity": "Rare",
+    "pixelArt": "",
+    "class": {
+      "name": "Breaker"
+    },
+    "faction": [
+      {
+        "name": "Papal States",
+        "icon": "<:Papal:1290663140245114936>"
+      }
+    ]
+  },
+  {
+    "name": "Vlderian Scout",
+    "rarity": "Rare",
+    "pixelArt": "",
+    "class": {
+      "name": "Seeker"
+    },
+    "faction": [
+      {
+        "name": "Vlder"
+      }
+    ]
+  },
+  {
+    "name": "Outlaw Archer",
+    "rarity": "Common",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      }
+    ]
+  },
+  {
+    "name": "Outlaw Assassin",
+    "rarity": "Common",
+    "pixelArt": "",
+    "class": {
+      "name": "Seeker"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      }
+    ]
+  },
+  {
+    "name": "Outlaw Axeman",
+    "rarity": "Common",
+    "pixelArt": "",
+    "class": {
+      "name": "Breaker"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      }
+    ]
+  },
+  {
+    "name": "Outlaw Crossbowman",
+    "rarity": "Common",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      }
+    ]
+  },
+  {
+    "name": "Outlaw Guard",
+    "rarity": "Common",
+    "pixelArt": "",
+    "class": {
+      "name": "Defender"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      }
+    ]
+  },
+  {
+    "name": "Outlaw Pikeman",
+    "rarity": "Common",
+    "pixelArt": "",
+    "class": {
+      "name": "Breaker"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      }
+    ]
+  },
+  {
+    "name": "Recruited Archer",
+    "rarity": "Common",
+    "pixelArt": "",
+    "class": {
+      "name": "Watcher"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      }
+    ]
+  },
+  {
+    "name": "Recruited Assassin",
+    "rarity": "Common",
+    "pixelArt": "",
+    "class": {
+      "name": "Seeker"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      }
+    ]
+  },
+  {
+    "name": "Recruited Guard",
+    "rarity": "Common",
+    "pixelArt": "",
+    "class": {
+      "name": "Defender"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      }
+    ]
+  },
+  {
+    "name": "Recruited Pikeman",
+    "rarity": "Common",
+    "pixelArt": "",
+    "class": {
+      "name": "Breaker"
+    },
+    "faction": [
+      {
+        "name": "Drifter",
+        "icon": "<:flag_drifter:1290663140245114936>"
+      }
+    ]
+  }
+]
