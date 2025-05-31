@@ -1,10 +1,17 @@
-export interface Item {
+interface BaseEquipment {
     name: string;
     rarity: Rarity
     tier: Tier[];
     icon: string;
     description: string;
-    type: WeaponType | "Trinket";
+}
+
+export interface Weapon extends BaseEquipment {
+    type: WeaponType;
+}
+
+export interface Trinket extends BaseEquipment {
+    type: 'Trinket';
 }
 
 export interface Tier {
@@ -12,7 +19,7 @@ export interface Tier {
     effect: string;
 }
 
-export enum Rarity {
+enum Rarity {
     Common = "Common",
     Rare = "Rare",
     Epic = "Epic",

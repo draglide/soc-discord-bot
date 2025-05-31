@@ -7,7 +7,8 @@ import {
 import { Command } from '../types/Command.js';
 import fs from 'fs';
 import path from 'path';
-import { Character } from '../types/Character.js';
+import { Character } from '../types/data/Character.js';
+import { generateSummaryEmbedPage, paginationSessionMap } from '../utils/CharacterEmbedPage';
 
 const loadCharacters = (): Character[] => {
     const filePath = path.resolve(__dirname, '../data/characters.json');
@@ -49,98 +50,86 @@ const command: Command = {
                 .setRequired(true)
                 .setAutocomplete(true)
         ) as SlashCommandBuilder,
-
     async execute(interaction: ChatInputCommandInteraction): Promise<void> {
         await interaction.deferReply({ ephemeral: false });
 
         const characters = loadCharacters();
 
-        const type = interaction.options.getString('type', true);
-        const query = interaction.options.getString('query', true).toLowerCase();
+        const type = interaction.options.getString("type", true);
+        const query = interaction.options.getString("query", true).toLowerCase();
 
         let matchedCharacters = characters;
 
-        if (type === 'name') {
-            matchedCharacters = characters.filter(c =>
-                c.name.toLowerCase().includes(query)
+        if (type === "name") {
+            matchedCharacters = characters.filter((c) =>
+                c.name.toLowerCase().includes(query),
             );
-        } else if (type === 'class') {
-            matchedCharacters = characters.filter(c =>
-                (c.class?.name || '').toLowerCase() === query
+        } else if (type === "class") {
+            matchedCharacters = characters.filter(
+                (c) => (c.class?.name || "").toLowerCase() === query,
             );
-        } else if (type === 'faction') {
-            matchedCharacters = characters.filter(c =>
-                (c.faction || []).some(f => f.name.toLowerCase() === query)
+        } else if (type === "faction") {
+            matchedCharacters = characters.filter((c) =>
+                (c.faction || []).some((f) => f.name.toLowerCase() === query),
             );
         }
 
         if (matchedCharacters.length === 0) {
             await interaction.editReply({
-                content: '❌ No characters found for your query.',
+                content: "❌ No characters found for your query.",
             });
             return;
         }
 
-        if (type === 'name') {
-            const embeds = matchedCharacters.slice(0).map(char =>
-                new EmbedBuilder()
-                    .setTitle(`${char.name} ${char.rarity ? `(${char.rarity})` : ''}`)
-                    .addFields(
-                        { name: 'Class', value: char.class?.name || 'N/A', inline: true },
-                        {
-                            name: 'Faction',
-                            value: Array.isArray(char.faction)
-                                ? char.faction.map(f => f.icon).join(' ')
-                                : 'N/A',
-                            inline: true,
-                        }
-                    )
-                    .setThumbnail(char.pixelArt || null)
-                    .setImage(char.mainArt || null)
-            );
+        const trimToLength = (str: string, max: number) =>
+            str.length > max ? str.slice(0, max - 3) + "..." : str;
 
-            await interaction.editReply({ embeds });
-        } else {
-            const names: string[] = [];
-            const extras: string[] = [];
-
-            matchedCharacters.slice(0, 30).forEach(char => {
-                names.push(`• **${char.name}**`);
-                const extra = type === 'class'
-                    ? (Array.isArray(char.faction)
-                        ? char.faction.map(f => f.icon).join(' ')
-                        : 'N/A')
-                    : (char.class?.name || 'N/A');
-                extras.push(`${extra}`);
-            });
-
+        if (type === "name") {
+            const topMatch = matchedCharacters[0];
+            if (!topMatch) {
+                await interaction.editReply({ content: "❌ No characters found." });
+                return;
+            }
             const embed = new EmbedBuilder()
-                .setColor(0x2f3136)
-                .setTitle(
-                    type === 'class'
-                        ? `📘 Characters in Class: ${query}`
-                        : `📙 Characters in Faction: ${query}`
-                )
+                .setTitle(`${topMatch.name} ${topMatch.rarity ? `(${topMatch.rarity})` : ""}`)
                 .addFields(
                     {
-                        name: 'Character Name',
-                        value: names.join('\n') || 'No data',
+                        name: "Class",
+                        value: topMatch.class?.icon
+                            ? `${topMatch.class.icon} ${topMatch.class.name}`
+                            : "N/A",
                         inline: true,
                     },
                     {
-                        name: type === 'class' ? 'Faction' : 'Class',
-                        value: extras.join('\n') || 'No data',
+                        name: "Faction",
+                        value: Array.isArray(topMatch.faction)
+                            ? trimToLength(topMatch.faction.map((f) => f.icon).join(" "), 1024)
+                            : "N/A",
                         inline: true,
-                    }
+                    },
                 )
-                .setFooter({
-                    text: matchedCharacters.length > 30
-                        ? `Showing 30 of ${matchedCharacters.length} results`
-                        : `${matchedCharacters.length} result(s) found`,
-                });
-
+                .setThumbnail(topMatch.pixelArt || null)
+                .setImage(topMatch.mainArt || null);
             await interaction.editReply({ embeds: [embed] });
+        } else {
+            if (type === "class" || type === "faction") {
 
+                const session = {
+                    timestamp: Date.now(),
+                    results: matchedCharacters,
+                    meta: {
+                        type: type as "class" | "faction",
+                        query,
+                    },
+                }
+
+                paginationSessionMap.set(interaction.id, session);
+
+                const { embeds, components } = generateSummaryEmbedPage(session, 0);
+                await interaction.editReply({ embeds, components });
+
+                return;
+            }
         }
     },
 

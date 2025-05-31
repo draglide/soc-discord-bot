@@ -1,4 +1,4 @@
-import { Item } from "./Item";
+import { Trinket, Weapon } from "./Equipment";
 import { Tarot } from "./Tarot";
 
 export interface Character {
@@ -22,7 +22,7 @@ export interface CharacterClass {
 
 export interface CharacterBuild {
     character: Character;
-    weapon?: Item[];
-    trinket?: Item[];
+    weapon?: Weapon[];
+    trinket?: Trinket[];
     tarot?: Tarot[];
 }
