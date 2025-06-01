@@ -1,14 +1,10 @@
 import { ButtonInteraction } from "discord.js";
-import { generateSummaryEmbedPage, paginationSessionMap } from "../utils/CharacterEmbedPage";
+import { paginationSessionMap } from "../utils/pagination/paginationMap";
 
 export async function handleButtons(interaction: ButtonInteraction) {
-    const match = interaction.customId.match(/^(prev|next)_page_(\d+)$/);
-    if (!match) return;
-
-    const [, , pageStr] = match;
-    const newPage = parseInt(pageStr, 10);
-
+    const customId = interaction.customId;
     const originalInteractionId = interaction.message.interaction?.id;
+
     if (!originalInteractionId) {
         return await interaction.reply({ content: "Session expired.", ephemeral: true });
     }
@@ -18,6 +14,23 @@ export async function handleButtons(interaction: ButtonInteraction) {
         return await interaction.reply({ content: "Session expired or not found.", ephemeral: true });
     }
 
-    const { embeds, components } = generateSummaryEmbedPage(session, newPage);
-    await interaction.update({ embeds, components });
+    if (interaction.user.id !== session.userId) {
+        return await interaction.reply({ content: "You are not allowed to use this button.", ephemeral: true });
+    }
+
+    switch (customId) {
+        case "prev_page":
+            session.page--;
+            return interaction.update(session.renderPage(session, session.page));
+        case "next_page":
+            session.page++;
+            return interaction.update(session.renderPage(session, session.page));
+        case "close_button":
+            paginationSessionMap.delete(originalInteractionId);
+            const noButtonsPage = session.renderPage(session, session.page);
+            noButtonsPage.components = [];
+            return interaction.update(noButtonsPage);
+        default:
+            return;
+    }
 }

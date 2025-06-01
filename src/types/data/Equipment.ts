@@ -19,7 +19,7 @@ export interface Tier {
     effect: string;
 }
 
-enum Rarity {
+export enum Rarity {
     Common = "Common",
     Rare = "Rare",
     Epic = "Epic",

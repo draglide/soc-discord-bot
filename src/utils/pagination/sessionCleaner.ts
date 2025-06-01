@@ -1,4 +1,4 @@
-import { paginationSessionMap } from "./CharacterEmbedPage";
+import { paginationSessionMap } from "./paginationMap";
 
 export function startSessionCleanupJob() {
     setInterval(() => {

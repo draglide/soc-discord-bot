@@ -26,3 +26,10 @@ export interface CharacterBuild {
     trinket?: Trinket[];
     tarot?: Tarot[];
 }
+
+export interface CharacterBuildRaw {
+    character: string;
+    weapon?: string[];
+    trinket?: string[];
+    tarot?: string[];
+}

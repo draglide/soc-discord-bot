@@ -1,0 +1,688 @@
+[
+  {
+    "name": "Berserk Incense",
+    "icon": "",
+    "type": "Trinket",
+    "description": "The incense is made from primitive materials such as trace amounts of Luxite, animal fluids, fused resin, herbs, and ash. It can induce a state of raging fury and pain tolerance, greatly enhancing combat capabilities. For some Luccians who have difficulty in transforming themselves, it can also easily trigger their transformation.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "Gains: Increases Movement by 1 tile and DMG by 10%."
+      },
+      {
+        "level": 5,
+        "effect": "Gains: Increases Movement by 1 tile and DMG by 20%."
+      }
+    ]
+  },
+  {
+    "name": "Coexist Armor",
+    "icon": "",
+    "type": "Trinket",
+    "description": "A thin layer of protective energy covers the surface of the skin. When you're in good shape, you barely feel it.",
+    "rarity": "Epic",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "DMG taken decreases by 5% when [Healthy]."
+      },
+      {
+        "level": 5,
+        "effect": "DMG taken decreases by 10% when [Healthy]."
+      }
+    ]
+  },
+  {
+    "name": "Cooling Powder",
+    "icon": "",
+    "type": "Trinket",
+    "description": "It is a confidential formula that enables a cool sensation throughout the body. It accelerates the healing of wounds with Luxite Blessing while providing a protective layer on the skin surface to prolong its efficacy. Highly recommended for use during summer or under intense sunlight. Travelers heading to Elaman often purchase some for their journey.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "Gains immunity to [🚫Healing Received]."
+      },
+      {
+        "level": 5,
+        "effect": "Increases Healing Received by 16% and gains immunity to [🚫Healing Received]."
+      }
+    ]
+  },
+  {
+    "name": "Crystal Burst Armor",
+    "icon": "",
+    "type": "Trinket",
+    "description": "A highly advanced suit of armor. Thanks to its Luxite-based materials, it is capable of absorbing a significant amount of force before reflecting it back at the attacker. It is even capable of shattering weapons used on it. The design is quite unique and doesn't match any of the factions in Rodinia.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "Increases HP by 2%. Strike Back deals 10% more DMG."
+      },
+      {
+        "level": 5,
+        "effect": "Increases HP by 10%. Strike Back deals 25% more DMG."
+      }
+    ]
+  },
+  {
+    "name": "Disaster Bottle",
+    "icon": "",
+    "type": "Trinket",
+    "description": "Its Very existence is a threat, and its power must be used with caution.",
+    "rarity": "Epic",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "Instant. Inflicts 1 random [Level 2 Attribute Debuff] on the enemy."
+      },
+      {
+        "level": 5,
+        "effect": "Instant. Inflicts 2 random [Level 2 Attribute Debuffs] on the enemy."
+      }
+    ]
+  },
+  {
+    "name": "Evergreen Pendent",
+    "icon": "",
+    "type": "Trinket",
+    "description": "Made of a combination of semi-Luxite and semi-jade, this pendant often promotes a quick recovery from injuries and ailments.",
+    "rarity": "Epic",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "When healed, there is a 50% chance to gain 1 random [Level 2 Attribute Buff], which lasts for 2 turns"
+      },
+      {
+        "level": 5,
+        "effect": "When healed, gains 1 random [Level 2 Attribute Buff], which lasts for 2 turns"
+      }
+    ]
+  },
+  {
+    "name": "Fancy Hat",
+    "icon": "",
+    "type": "Trinket",
+    "description": "A hat worn by performers. With its lowered brim, it helps performers concentrate on their performance.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "Gains [Immunity to Disrupt]. When [Healthy], M.DEF increases by 3%."
+      },
+      {
+        "level": 5,
+        "effect": "Gains [Immunity to Disrupt]. When [Healthy], M.DEF increases by 15%."
+      }
+    ]
+  },
+  {
+    "name": "Flying Blade Armguard",
+    "icon": "",
+    "type": "Trinket",
+    "description": "A quiet and complex blade launching device capable of loading independently and chaining multiple shots together. It is easy to use, which makes it ideal for assassination missions.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "[Instant]. Deals [Piercing DMG] equal to 12% of the enemy's HP"
+      },
+      {
+        "level": 5,
+        "effect": "[Instant]. Deals [Piercing DMG] equal to 15% of the enemy's HP"
+      }
+    ]
+  },
+  {
+    "name": "Hunter's Intuition",
+    "icon": "",
+    "type": "Trinket",
+    "description": "With the prey none the wiser, the deadly hunt begins.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "When [Alert] is triggered, deals 5% more DMG. Moreover, if a foe uses a skill within range of the [Alert), it will also be triggered."
+      },
+      {
+        "level": 5,
+        "effect": "When [Alert] is triggered, deals 25% more DMG. Moreover, if a foe uses a skill within range of the [Alert), it will also be triggered."
+      }
+    ]
+  },
+  {
+    "name": "Luxite Greatshield",
+    "icon": "",
+    "type": "Trinket",
+    "description": "It is a luxury, giant shield made entirely of a single, stable Luxite, which is almost impossible to produce in dimension fragments.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "Gains a [Physical Shield] with value equal to 40% HP"
+      },
+      {
+        "level": 5,
+        "effect": "Gains a [Physical Shield] with value equal to 60% HP"
+      }
+    ]
+  },
+  {
+    "name": "Maverick's Cloak",
+    "icon": "",
+    "type": "Trinket",
+    "description": "This cloak may look humble, but it can conceal one's movements or intentions from others.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "When there are no allies within 4 tiles around the character, ATK and DEF increase by 4% and Crit increases by 10%."
+      },
+      {
+        "level": 5,
+        "effect": "When there are no allies within 3 tiles around the character, ATK and DEF increase by 12% and Crit increases by 20%."
+      }
+    ]
+  },
+  {
+    "name": "Mist Necklace",
+    "icon": "",
+    "type": "Trinket",
+    "description": "It is covered in a gray haze that appears ominous and intimidating, causing opponents to hesitate and back away.",
+    "rarity": "Epic",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "Before being actively attacked, inflicts 1 random [level 1 Debuff] on the attacker for 2 turns. CD: 5 turns."
+      },
+      {
+        "level": 5,
+        "effect": "Before being actively attacked, inflicts 1 random [level 1 Debuff] on the attacker for 2 turns. CD: 2 turns."
+      }
+    ]
+  },
+  {
+    "name": "Mysterious Deflection Device",
+    "icon": "",
+    "type": "Trinket",
+    "description": "The mysterious crystal constantly radiates the force of rejection, which invisibly causes the trajectory of the flying object to deviate.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "Decreases the DMG from [ranged attacks] by 4%."
+      },
+      {
+        "level": 5,
+        "effect": "Decreases the DMG from [ranged attacks] by 12%."
+      }
+    ]
+  },
+  {
+    "name": "Mystery Guardian",
+    "icon": "",
+    "type": "Trinket",
+    "description": "Made of materials similar to the Calamity, you can vaguely feel the non- living force.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "When attacked from the [front), gains 5% bonus P.DEF and [ 🚫Defense Attribute Debuff]."
+      },
+      {
+        "level": 5,
+        "effect": "When attacked from the [front), gains 25% bonus P.DEF and [ 🚫Defense Attribute Debuff]."
+      }
+    ]
+  },
+  {
+    "name": "Old Scrolls of Auguste",
+    "icon": "",
+    "type": "Trinket",
+    "description": "It is a worn notebook that contains detailed records of the knight's creed, rules, various tactics and strategies, and military management methods. Among them, one article emphasizes the importance of inspiration, written by the squadron leader Auguste.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "[Instant] Grants an ally a [Level 2 Buff] and [ △ SPD I]."
+      },
+      {
+        "level": 5,
+        "effect": "[Instant] Grants an ally a [Level 2 Buff] and [ △ SPD I]."
+      }
+    ]
+  },
+  {
+    "name": "Origin Hourglass",
+    "icon": "",
+    "type": "Trinket",
+    "description": "A trinket developed by a long-forgotten deity who wished to reverse the flow of time. While this is impossible on a universal scale, it is relatively simple to manipulate the time which surrounds only oneself.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "Increases P.ATK and M.ATK by 2%. Grants immunity against ( ▽ Move] and [▽SPD]."
+      },
+      {
+        "level": 5,
+        "effect": "Increases P.ATK and M.ATK by 8%. Grants immunity against ( ▽ Move] and [▽SPD]."
+      }
+    ]
+  },
+  {
+    "name": "Radiant Clensing Water",
+    "icon": "",
+    "type": "Trinket",
+    "description": "-",
+    "rarity": "Epic",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "[Instant]. Recovers 30% of HP and gains 2 random [Level 1 Buffs] for 2 turns. Can be activated up to 2 times per battle."
+      },
+      {
+        "level": 5,
+        "effect": "[Instant]. Recovers 30% of HP and gains 2 random [Level 1 Buffs] for 2 turns. Can be activated up to 2 times per battle."
+      }
+    ]
+  },
+  {
+    "name": "Roaring Flint",
+    "icon": "",
+    "type": "Trinket",
+    "description": "A possible weapon for the knights who make use of Luxite, containing a fragment imbued with the power of flame. After being modified, it is no longer limited to targeting single objects. Due to the extensive collateral damage, the Union finally decided to add regulations limiting its use.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "Instant. Deals [fire] [Piercing DMG] equal to 10% HP to the enemies within range."
+      },
+      {
+        "level": 5,
+        "effect": "Instant. Deals [fire] [Piercing DMG] equal to 20% HP to the enemies within range."
+      }
+    ]
+  },
+  {
+    "name": "Shroud of Void",
+    "icon": "",
+    "type": "Trinket",
+    "description": "The veil that covers the deep, makes it nearly impossible to penetrate by any kind of magical spell.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "[Instant] Decreases magical DMG taken by 50%, which can be activated up to 1 times."
+      },
+      {
+        "level": 5,
+        "effect": "[Instant] Decreases magical DMG taken by 70%, which can be activated up to 3 times."
+      }
+    ]
+  },
+  {
+    "name": "Space-time Ring",
+    "icon": "",
+    "type": "Trinket",
+    "description": "It comes from a short-lived wizard among Luxite Knights. Inspired by the sudden birth of Luxite, it can make the wearer teleport in space. Later generations further enhanced its effect and energy endurance. To this day, nobody can resist his curiosity about it.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "[Instant] Teleports the character behind an ally and increases ATK by 2%."
+      },
+      {
+        "level": 5,
+        "effect": "[Instant] Teleports the character behind an ally and increases ATK by 10%."
+      }
+    ]
+  },
+  {
+    "name": "Spring Pill",
+    "icon": "",
+    "type": "Trinket",
+    "description": "Made by mixing condensed Vltar Mountain mint with the Spring Tonic recipe, providing a longer-lasting aroma and refreshing sensation while improving focus.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "[Instant] Heals the character for 20% HP and dispels 1 Debuffs."
+      },
+      {
+        "level": 5,
+        "effect": "[Instant] Heals the character for 30% HP and dispels 2 Debuffs."
+      }
+    ]
+  },
+  {
+    "name": "Spring Tonic",
+    "icon": "",
+    "type": "Trinket",
+    "description": "Made from wild-grown medicinal herbs and crystal-clear dew, this weapon can awaken the primal survival instincts of warriors and create a resonance between their lives.",
+    "rarity": "Epic",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "[Instant]. Heals 30% HP."
+      },
+      {
+        "level": 5,
+        "effect": "[Instant]. Heals 45% HP."
+      }
+    ]
+  },
+  {
+    "name": "True Lens",
+    "icon": "",
+    "type": "Trinket",
+    "description": "A well-thought-out design created by a retired veteran. It is a complex device with a mechanism for the ballistic correction of most projectiles. While it is very useful, there is a risk of it becoming a crutch for rookie soldiers.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "Increases P.ATK by 1%. When attacking from [Highland], Crit increases by 12%."
+      },
+      {
+        "level": 5,
+        "effect": "Increases P.ATK by 5%. When attacking from [Highland], Crit increases by 20%."
+      }
+    ]
+  },
+  {
+    "name": "Unique Coat",
+    "icon": "",
+    "type": "Trinket",
+    "description": "The coat you often wear. No one knows its chic style from which dimension.",
+    "rarity": "Epic",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "Physical DMG taken decreases by 20%. CD: 5 turns."
+      },
+      {
+        "level": 5,
+        "effect": "Physical DMG taken decreases by 30%. CD: 2 turns."
+      }
+    ]
+  },
+  {
+    "name": "Wind-breaking Talisman",
+    "icon": "",
+    "type": "Trinket",
+    "description": "-",
+    "rarity": "Epic",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "Increases Crit by 15%"
+      },
+      {
+        "level": 5,
+        "effect": "Increases Crit by 15%"
+      }
+    ]
+  },
+  {
+    "name": "Mingxin Brilliant Crystal",
+    "icon": "https://patchwiki.biligame.com/images/llzj/thumb/a/af/8mehl3rwhf4chgsf6ado6saqk3hlgdv.png/100px-%E8%A3%85%E5%A4%87_%E9%B8%A3%E5%BF%83%E8%BE%89%E6%99%B6.png",
+    "type": "Trinket",
+    "description": "he necklace is made up of delicate and lustrous crystals strung together. It is simply crafted and all are handmade. Each crystal embodies the maker's best wishes and reaches the softest corner of people's hearts. When the wearer risks his life for the one he loves or the beliefs he holds dear, the crystal will resonate with his beliefs and shine brightly to prove his determination.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "[Instant], sacrifice 40% of current health , restore 1 energy, and move 3 more squares after actively using non-[Instant] skills . Can be used once per battle , with a 1- turn pre-cooldown ."
+      },
+      {
+        "level": 2,
+        "effect": "[Instant], sacrifice 40% of current health , restore 1 energy, and move 3 more squares after actively using non-[Instant] skills . Can be used up to 2 times per battle, with a cooldown of 5 rounds."
+      },
+      {
+        "level": 3,
+        "effect": "[Instant], sacrifice 40% of current health , restore 1 energy, and move 3 more squares after actively using non-[Instant] skills . Can be used up to 2 times per battle, with a cooldown of 2 rounds."
+      },
+      {
+        "level": 4,
+        "effect": "[Instant], sacrifice 40% of current health , restore 1 energy, and move 3 more squares after actively using non-[Instant] skills . Can be used up to 3 times per battle, with a cooldown of 2 rounds."
+      },
+      {
+        "level": 5,
+        "effect": "[Instant], sacrifice 40% of current health , restore 1 energy, and move 3 more squares after actively using non-[Instant] skills . Can be used up to 4 times per battle, with a cooldown of 1 rounds."
+      }
+    ]
+  },
+  {
+    "name": "Blood Curse Armor \"Fafnir\"",
+    "icon": "https://patchwiki.biligame.com/images/llzj/thumb/4/41/1erv3wt6wvf9qp1gb78c2oa10z052pe.png/100px-%E8%A3%85%E5%A4%87_%E9%B2%9C%E8%A1%80%E5%92%92%E9%93%A0%E2%80%9D%E6%B3%95%E5%A4%AB%E7%BA%B3%E2%80%9C.png",
+    "type": "Trinket",
+    "description": "The mythical weapon forged by the Knights Alliance was given the infamous name of Cursed Armor. This armor seems to have life. It craves blood and destruction. While granting the wearer great power, it also foreshadows the end of his life. Swallowing up all the glory, walking in the world as a curse, only the oath has not been forgotten...",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "When the initial movement is less than or equal to 3 , the movement increases by 1 square; the attack and defense attributes increase by 3% . At the beginning of the battle round, you gain 3 layers [Blood Curse Armor], each layer reduces the attack and defense attributes by 4% , up to 3 layers, lasting for 2 rounds."
+      },
+      {
+        "level": 2,
+        "effect": "When the initial movement is less than or equal to 3 , the movement increases by 1 square; the attack and defense attributes increase by 3% . At the beginning of the battle round, you gain 3 layers [Blood Curse Armor], each layer reduces the attack and defense attributes by 3% , up to 3 layers, lasting for 2 rounds."
+      },
+      {
+        "level": 3,
+        "effect": "When the initial movement is less than or equal to 3 , the movement increases by 1 square; the attack and defense attributes increase by 6% . At the beginning of the battle round, you gain 3 layers [Blood Curse Armor], each layer reduces the attack and defense attributes by 3% , up to 3 layers, lasting for 2 rounds."
+      },
+      {
+        "level": 4,
+        "effect": "When the initial movement is less than or equal to 3 , the movement increases by 1 square; the attack and defense attributes increase by 6% . At the beginning of the battle round, you gain 3 layers [Blood Curse Armor], each layer reduces the attack and defense attributes by 2% , up to 3 layers, lasting for 2 rounds."
+      },
+      {
+        "level": 5,
+        "effect": "When the initial movement is less than or equal to 3 , the movement increases by 1 square; the attack and defense attributes increase by 9% . At the beginning of the battle round, you gain 3 layers [Blood Curse Armor], each layer reduces the attack and defense attributes by 2% , up to 3 layers, lasting for 2 rounds."
+      }
+    ]
+  },
+  {
+    "name": "Breath-Concealing Ring",
+    "icon": "https://patchwiki.biligame.com/images/llzj/thumb/0/0b/36amz9i1x4y1spug4fual9g2asizgbp.png/100px-%E8%A3%85%E5%A4%87_%E6%95%9B%E6%81%AF%E5%87%86%E7%8E%A6.png",
+    "type": "Trinket",
+    "description": "A ring made of bones, said to be from the skeleton of a prey that a gifted hunter had been pursuing but failed to catch, and eventually died of old age. The ring made of it seems to twist the arrow feathers in silence, so that the arrow tip always points to the prey's vital points, and silences the sound of both the arrow and the prey.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "Increases physical attack by 1% . Before active  [Normal Attack], increase Physical Attack by an additional 9% until the next action."
+      },
+      {
+        "level": 2,
+        "effect": "Increases physical attack by 2% . Before active [Normal Attack], increase Physical Attack by an additional 9% until the next action."
+      },
+      {
+        "level": 3,
+        "effect": "Increases physical attack by 3% . Before active [Normal Attack], increase Physical Attack by an additional 12% until the next action."
+      },
+      {
+        "level": 4,
+        "effect": "Increases physical attack by 4% . Before active [Normal Attack], increase Physical Attack by an additional 12% until the next action."
+      },
+      {
+        "level": 5,
+        "effect": "Increases physical attack by 5% .Before active [Normal Attack], increase Physical Attack by an additional 15% until the next action."
+      }
+    ]
+  },
+  {
+    "name": "Wild Spice Vial",
+    "icon": "https://patchwiki.biligame.com/images/llzj/thumb/a/a0/8vm2ihar25w7eer77915y44vkbv1lw8.png/100px-%E8%A3%85%E5%A4%87_%E5%8E%9F%E9%87%8E%E8%B0%83%E5%91%B3%E7%93%B6.png",
+    "type": "Trinket",
+    "description": "An essential companion for outdoor cooking, the bottle is filled with spices blended from different herbs and blended with fine rock salt, which can greatly stimulate the flavor of the ingredients. When paired with different cooking utensils, the taste of the spices will also undergo mysterious changes.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "Magic attack and health increased by 4% .[Professional Skills], if it gains [Shield], [Shield Value] increases by 6% ; if the target is in [Dying] state, it increases to 8% ."
+      },
+      {
+        "level": 2,
+        "effect": "Magic attack and health increased by 6% .[Professional Skills], if it gains [Shield], [Shield Value] increases by 6% ; if the target is in [Dying] state, it increases to 8% ."
+      },
+      {
+        "level": 3,
+        "effect": "Magic attack and health increased by 6% .[Professional Skills], if it gains [Shield], [Shield Value] increases by 9% ; if the target is in [Dying] state, it increases to 12% ."
+      },
+      {
+        "level": 4,
+        "effect": "Magic attack and health increased by 6% .[Professional Skills], if it gains [Shield], [Shield Value] increases by 12% ; if the target is in [Dying] state, it increases to 16% ."
+      },
+      {
+        "level": 5,
+        "effect": "Magic attack and health increased by 8% .[Professional Skills], if it gains [Shield], [Shield Value] increases by 15% ; if the target is in [Dying] state, it increases to 20% .Make the target have 1 [Debuff] converted to [2-stage gain], lasts for 2 rounds."
+      }
+    ]
+  },
+  {
+    "name": "Cage Mask",
+    "icon": "https://patchwiki.biligame.com/images/llzj/thumb/a/a9/3qfci3t5xhw0kykt8mt6i7y9cl02zpr.png/100px-%E8%A3%85%E5%A4%87_%E5%9B%9A%E7%AC%BC%E9%9D%A2%E5%85%B7.png",
+    "type": "Trinket",
+    "description": "The moment you break the mask, you will gain the power of sunshine and wind. That's not a taboo, that's freedom. Taking the initiative is also a form of self-protection.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "Increases attack and defense by 2% . Has 30% health [Magic Shield], the attack and defense attributes are increased by an additional 3% ."
+      },
+      {
+        "level": 2,
+        "effect": "Increases attack and defense by 4% . Has 30% health [Magic Shield], the attack and defense attributes are increased by an additional 3% ."
+      },
+      {
+        "level": 3,
+        "effect": "Increases attack and defense by 4% . Has 30% health [Magic Shield], the attack and defense attributes are increased by an additional 3%, up to 6%."
+      },
+      {
+        "level": 4,
+        "effect": "Increases attack and defense by 6% . Has 30% health [Magic Shield], the attack and defense attributes are increased by an additional 3%, up to 6%."
+      },
+      {
+        "level": 5,
+        "effect": "Increases attack and defense by 6% . Has 30% health [Magic Shield], the attack and defense attributes are increased by an additional 3%, up to 9%."
+      }
+    ]
+  },
+  {
+    "name": "Blood Luxite Amulet",
+    "icon": "https://patchwiki.biligame.com/images/llzj/thumb/4/4f/118ic3uv6xbdh2kjv25g47byie43ult.png/100px-%E8%A3%85%E5%A4%87_%E8%A1%80%E6%99%B6%E7%9F%B3%E6%8A%A4%E8%BA%AB%E7%AC%A6.png",
+    "type": "Trinket",
+    "description": "The hand-woven amulet looks plain on the outside, but inside it is inlaid with a scarlet blood crystal stone that appears to have been broken. After a certain legendary witch modified and repaired it, she suppressed the harm of the blood crystal to the human body, allowing the blood crystal to supply the power of the crystal to the user more gently. The blood crystal stone is like an abyss and you must not stare at it for too long.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "Magic damage increased by 4% ; [Magic AOE damage] increased by 8% .[Dying] status, the effect is changed to: Magic Damage increased by 6% ; [Magic AoE Damage] increased by 12% ."
+      },
+      {
+        "level": 2,
+        "effect": "Magic damage increased by 6% ; [Magic AoE damage] increased by 12% .[Dying] status, the effect is changed to: Magic Damage increased by 9% ; [Magic AoE Damage] increased by 18% ."
+      },
+      {
+        "level": 3,
+        "effect": "Magic damage increased by 6% ; [Magic AoE damage] increased by 12% .[Dying] status, the effect is changed to: Magic Damage increased by 12% ; [Magic AoE Damage] increased by 24% ."
+      },
+      {
+        "level": 4,
+        "effect": "Magic damage increased by 8% ; [Magic AoE damage] increased by 16% .[Dying] status, the effect is changed to: Magic Damage increased by 16% ; [Magic AoE Damage] increased by 32% ."
+      },
+      {
+        "level": 5,
+        "effect": "Magic damage increased by 10% ; [Magic AoE damage] increased by 20% .[Dying] status, the effect is changed to: Magic Damage increased by 20% ; [Magic AoE Damage] increased by 40% ."
+      }
+    ]
+  },
+  {
+    "name": "Shield of Justice",
+    "icon": "https://patchwiki.biligame.com/images/llzj/thumb/b/b0/2rs13gimjpwbbiff93f09hyq7z9xb0a.png/100px-%E8%A3%85%E5%A4%87_%E5%AE%88%E6%8A%A4%E6%AD%A3%E4%B9%89%E4%B9%8B%E7%9B%BE.png",
+    "type": "Trinket",
+    "description": "A heavy shield that can cover the entire body, with a crystal defense device installed on the back. When facing danger, the power of the crystal contained in the surface will be released outward along the pattern, and together with the shield, it will form an indestructible wall of defense to resist all invading enemies. The shield was given to Tyden by Knight Randall, who swore to \"defend the Randall family to the death\" on it. However, after Randall's death, Tyden never picked it up again.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "When have [Physical Shield], the attack and defense attributes increase by 6% . At the start of the action, gain a [Physical Shield] of 50% of its own physical defense value , cooldown for 3 rounds."
+      },
+      {
+        "level": 2,
+        "effect": "When have [Physical Shield], the attack and defense attributes increase by 9% . At the start of the action, gain a [Physical Shield] of 50% of its own physical defense value , cooldown for 3 rounds."
+      },
+      {
+        "level": 3,
+        "effect": "When have [Physical Shield], the attack and defense attributes increase by 9% . At the start of the action, gain a [Physical Shield] of 80% of its own physical defense value , cooldown for 3 rounds."
+      },
+      {
+        "level": 4,
+        "effect": "When have [Physical Shield], the attack and defense attributes increase by 12% . At the start of the action, gain a [Physical Shield] of 80% of its own physical defense value , cooldown for 3 rounds."
+      },
+      {
+        "level": 5,
+        "effect": "When have [Physical Shield], the attack and defense attributes increase by 12% . At the start of the action, gain a [Physical Shield] of 120% of its own physical defense value , cooldown for 2 rounds."
+      }
+    ]
+  },
+  {
+    "name": "Deceptive Shadow",
+    "icon": "https://patchwiki.biligame.com/images/llzj/thumb/1/16/m6dfm71lzimuhvrd6sjynvrf23fcx1x.png/100px-%E8%A3%85%E5%A4%87_%E8%AF%A1%E8%AF%88%E4%B9%8B%E5%BD%B1.png",
+    "type": "Trinket",
+    "description": "A carefully tailored and custom-made cloak is like seeing a real person, so it can often deceive the enemy in times of crisis and help the owner survive, and is deeply favored by the bigwigs at the top of power. \"The one who holds the chess piece must know how to manipulate the reality.\"",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "Increases attack and defense attributes by 4% . Can be immune once [Bound], the effect has a cooldown of 5 turns."
+      },
+      {
+        "level": 2,
+        "effect": "Increases attack and defense attributes by 6% . Can be immune once [Bound], the effect has a cooldown of 5 turns."
+      },
+      {
+        "level": 3,
+        "effect": "Increases attack and defense attributes by 6% . Can be immune once [Bound], the effect has a cooldown of 3 turns."
+      },
+      {
+        "level": 4,
+        "effect": "Increases attack and defense attributes by 8% . Can be immune once [Bound], the effect has a cooldown of 3 turns."
+      },
+      {
+        "level": 5,
+        "effect": "Increases attack and defense attributes by 8% . Can be immune once [Bound], the effect has a cooldown of 2 turns."
+      }
+    ]
+  },
+  {
+    "name": "Blood-colored Ghost Feather",
+    "icon": "https://patchwiki.biligame.com/images/llzj/thumb/f/fc/j0pu5b24n58yi9otpoxgso3tpfmz8af.png/100px-%E8%A3%85%E5%A4%87_%E8%A1%80%E8%89%B2%E5%B9%BD%E7%BF%8E.png",
+    "type": "Trinket",
+    "description": "Several short blades were glowing with a faint light, and the country they came from had long since been destroyed. The conquerors of a fallen nation forged the mark of the black feather into the blade, and also carved the long-cherished wish of restoring their nation into their bones. In the past, when the first wave of enemy troops stepped into our homeland, black feathers fell one after another, and the net woven by blood-stained blades suddenly tightened, strangling all the invading enemies.",
+    "rarity": "Legendary",
+    "tier": [
+      {
+        "level": 1,
+        "effect": "The first time you create it each round [item] or [Trigger], the attack and defense attributes increase by 8% and last until the next action."
+      },
+      {
+        "level": 2,
+        "effect": "The first time you create it each round [item] or [Trigger], restore 1 energy point and the attack and defense attributes increase by 8% and last until the next action."
+      },
+      {
+        "level": 3,
+        "effect": "The first time you create it each round [item] or [Trigger], restore 1 energy point and the attack and defense attributes increase by 12% and last until the next action."
+      },
+      {
+        "level": 4,
+        "effect": "The first time you create it each round [item] or [Trigger], restore 1 energy point and the attack and defense attributes increase by 15% and last until the next action."
+      },
+      {
+        "level": 5,
+        "effect": "The first time you create it each round [item] or [Trigger], restore 2 energy point and the attack and defense attributes increase by 15% and last until the next action."
+      }
+    ]
+  }
+]

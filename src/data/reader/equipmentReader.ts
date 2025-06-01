@@ -35,10 +35,12 @@ export async function fetchEquipments(): Promise<EquipmentData> {
             { level: 5, effect: star5 },
         ].filter(t => t.effect); // Filter out undefined effects if needed
 
-        if (type === 'Trinket') {
-            trinkets.push({ name, icon, type: 'Trinket', description, rarity, tier: tiers });
-        } else {
-            weapons.push({ name, icon, type: type as WeaponType, description, rarity, tier: tiers });
+        if (name != null && rarity != null) {
+            if (type === 'Trinket') {
+                trinkets.push({ name, icon, type: 'Trinket', description, rarity, tier: tiers });
+            } else {
+                weapons.push({ name, icon, type: type as WeaponType, description, rarity, tier: tiers });
+            }
         }
     }
 

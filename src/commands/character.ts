@@ -2,29 +2,13 @@ import {
     SlashCommandBuilder,
     ChatInputCommandInteraction,
     AutocompleteInteraction,
-    EmbedBuilder,
 } from 'discord.js';
 import { Command } from '../types/Command.js';
-import fs from 'fs';
-import path from 'path';
-import { Character } from '../types/data/Character.js';
-import { generateSummaryEmbedPage, paginationSessionMap } from '../utils/CharacterEmbedPage';
-
-const loadCharacters = (): Character[] => {
-    const filePath = path.resolve(__dirname, '../data/characters.json');
-    if (!fs.existsSync(filePath)) {
-        console.warn(`⚠️ File not found: ${filePath}`);
-        return [];
-    }
-
-    try {
-        const raw = fs.readFileSync(filePath, 'utf8');
-        return JSON.parse(raw) as Character[];
-    } catch (err) {
-        console.warn(`⚠️ Failed to load character data: ${err}`);
-        return [];
-    }
-};
+import { characterStore } from '../data/store';
+import { generateCharacterEmbed, generateCharacterListByClassEmbed, generateCharacterListByFactionEmbed } from '../embeds/characterEmbed';
+import { paginationSessionMap } from '../utils/pagination/paginationMap';
+import { PageSessionData } from '../types/PageSessionData';
+import { autoClosePaginatedButtons } from '../utils/interaction/autoCloseButton';
 
 const unique = <T>(arr: T[]) => [...new Set(arr)];
 
@@ -53,107 +37,76 @@ const command: Command = {
     async execute(interaction: ChatInputCommandInteraction): Promise<void> {
         await interaction.deferReply({ ephemeral: false });
 
-        const characters = loadCharacters();
+        const characters = characterStore;
 
         const type = interaction.options.getString("type", true);
         const query = interaction.options.getString("query", true).toLowerCase();
 
         let matchedCharacters = characters;
 
-        if (type === "name") {
-            matchedCharacters = characters.filter((c) =>
-                c.name.toLowerCase().includes(query),
-            );
-        } else if (type === "class") {
-            matchedCharacters = characters.filter(
-                (c) => (c.class?.name || "").toLowerCase() === query,
-            );
-        } else if (type === "faction") {
-            matchedCharacters = characters.filter((c) =>
-                (c.faction || []).some((f) => f.name.toLowerCase() === query),
-            );
+        switch (type) {
+            case "name":
+                matchedCharacters = characters.filter((c) => c.name.toLowerCase().includes(query));
+                break;
+            case "class":
+                matchedCharacters = characters.filter((c) => (c.class?.name || "").toLowerCase() === query);
+                break
+            case "faction":
+                matchedCharacters = characters.filter((c) => (c.faction || []).some((f) => f.name.toLowerCase() === query));
+                break
+            default:
+                await interaction.editReply({ content: "❌ Invalid type provided." });
+                return;
         }
 
         if (matchedCharacters.length === 0) {
-            await interaction.editReply({
-                content: "❌ No characters found for your query.",
-            });
+            await interaction.editReply({ content: "❌ No characters found for your query." });
             return;
         }
 
-        const trimToLength = (str: string, max: number) =>
-            str.length > max ? str.slice(0, max - 3) + "..." : str;
-
         if (type === "name") {
-            const topMatch = matchedCharacters[0];
-            if (!topMatch) {
-                await interaction.editReply({ content: "❌ No characters found." });
-                return;
-            }
-            const embed = new EmbedBuilder()
-                .setTitle(`${topMatch.name} ${topMatch.rarity ? `(${topMatch.rarity})` : ""}`)
-                .addFields(
-                    {
-                        name: "Class",
-                        value: topMatch.class?.icon
-                            ? `${topMatch.class.icon} ${topMatch.class.name}`
-                            : "N/A",
-                        inline: true,
-                    },
-                    {
-                        name: "Faction",
-                        value: Array.isArray(topMatch.faction)
-                            ? trimToLength(topMatch.faction.map((f) => f.icon).join(" "), 1024)
-                            : "N/A",
-                        inline: true,
-                    },
-                )
-                .setThumbnail(topMatch.pixelArt || null)
-                .setImage(topMatch.mainArt || null);
-            await interaction.editReply({ embeds: [embed] });
-        } else {
-            if (type === "class" || type === "faction") {
-
-                const session = {
-                    timestamp: Date.now(),
-                    results: matchedCharacters,
-                    meta: {
-                        type: type as "class" | "faction",
-                        query,
-                    },
-                }
-
-                paginationSessionMap.set(interaction.id, session);
-
-                const { embeds, components } = generateSummaryEmbedPage(session, 0);
-                await interaction.editReply({ embeds, components });
-
-                return;
-            }
+            await interaction.editReply({ embeds: [generateCharacterEmbed(matchedCharacters[0])] });
+            return
         }
+        const generator = type === "class" ? generateCharacterListByClassEmbed : generateCharacterListByFactionEmbed;
+        const session: PageSessionData<typeof characterStore[number], { query: string }> = {
+            timestamp: Date.now(),
+            results: matchedCharacters,
+            userId: interaction.user.id,
+            page: 0,
+            meta: { query },
+            renderPage: (session, page) => generator(session, page)
+        }
+
+        paginationSessionMap.set(interaction.id, session);
+
+        const message = await interaction.editReply(generator(session, 0));
+
+        autoClosePaginatedButtons(message, 60000); // Auto-close after 60 seconds
     },
 
     async autocomplete(interaction: AutocompleteInteraction): Promise<void> {
-        const characters = loadCharacters();
+        const characters = characterStore;
         const type = interaction.options.getString('type');
         const focused = interaction.options.getFocused();
 
         let suggestions: string[] = [];
 
-        if (type === 'name') {
-            suggestions = characters.map(c => c.name);
-        } else if (type === 'class') {
-            suggestions = unique(
-                characters.map(c => c.class?.name).filter((cls): cls is string => !!cls)
-            );
-        } else if (type === 'faction') {
-            suggestions = unique(
-                characters
-                    .flatMap(c => {
-                        const factionsArray = Array.isArray(c.faction) ? c.faction : [c.faction];
-                        return factionsArray.map(f => f?.name).filter(Boolean);
-                    })
-            );
+        switch (type) {
+            case 'name':
+                suggestions = characters.map(c => c.name);
+                break;
+            case 'class':
+                suggestions = unique(characters.map(c => c.class?.name).filter((cls): cls is string => !!cls));
+                break;
+            case 'faction':
+                suggestions = unique(characters.flatMap(c => {
+                    const factionsArray = Array.isArray(c.faction) ? c.faction : [c.faction];
+                    return factionsArray.map(f => f?.name).filter(Boolean);
+                }));
+                break;
+            default:
+                suggestions = [];
         }
 
         const filtered = suggestions
